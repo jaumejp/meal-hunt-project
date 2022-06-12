@@ -1,0 +1,66 @@
+
+.pop-up-bg {
+    top: 0;
+    left: 0;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0009;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s ease;
+}
+.pop-up-bg.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.pop-up {
+    background-color: white;
+    width: 800px;
+    max-width: 100%;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    position: relative;
+}
+
+.pop-up img {
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.pop-up p {
+    margin: 0;
+}
+.icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.scroll-box {
+    height: 100px;
+    overflow-y: scroll;
+}
+.pop-up-bg .icons i {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+.pop-up-bg .icons a {
+    text-decoration: none;
+}
+
+.pop-up .fa-circle-xmark {
+    position: absolute;
+    left: 94%;
+    cursor: pointer;
+}

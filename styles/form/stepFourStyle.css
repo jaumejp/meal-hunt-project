@@ -1,0 +1,52 @@
+.diets-container {
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.diet-container {
+    height: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #000;
+    position: relative;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: #fff;
+}
+.diet-container h3 {
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.fa-circle-question {
+    position: absolute;
+    top: 5px;
+    left: 175px;
+    z-index: 1;
+}
+
+.fa-circle-question:hover + .diet-info{
+    display: block;
+    color: black;
+    z-index: 2;
+}
+.diet-info {
+    position: absolute;
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(211, 211, 211);
+    border-radius: 10px;
+    bottom: 0px;
+    left: 175px;
+    display: none;
+    text-align: center;
+}
+.diet-active {
+    border: 2px solid #FFB200;
+}

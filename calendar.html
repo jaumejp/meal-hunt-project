@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+
+    <!--Own CSS and JS-->
+    <link rel="stylesheet" href="./styles/calendar/generalCalendarStyle.css">
+    <link rel="stylesheet" href="./styles/calendar/cardStyle.css">
+    <link rel="stylesheet" href="./styles/calendar/popUpStyle.css">
+    <link rel="stylesheet" href="./styles/calendar/barChartSytle.css">
+
+
+    <script src="./scripts/calendar/script.js" type="module"></script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./images/logo.png">
+
+    <!--Icons from Awesome fonts-->
+    <script src="https://kit.fontawesome.com/f37f8c8e34.js" crossorigin="anonymous"></script>
+
+    <!-- CDN of ChartJS -->
+    <script src="http://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <h1>Meal Planner</h1>
+        <p>Personalized meal plan for: <span class="user-name" id="userName">--UserName--</span></p>
+        <div class="week">
+            <div class="title icon"><i class="fa-solid fa-utensils"></i></div>
+            <div class="title breakfast">breakfast</div>
+            <div class="title lunch">lunch</div>
+            <div class="title dinner">dinner</div>
+            <div class="title macros">Macros</div>
+            <!--Here we'll append the rows-->
+        </div>
+
+        <div class="pop-up-bg">
+            <div class="pop-up">
+                <i class="fa fa-thin fa-circle-xmark"></i>
+                <h4>--Title--</h4>
+                <figure>
+                    <img src="" alt="">
+                </figure>
+                <p class="scroll-box"></p>
+                <div class="icons">
+                    <i class="fa-solid fa-star">X</i>
+                    <a href="" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    <i class="fa-solid fa-clock">X</i>     
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <template id="day-template">
+        <div class="title">--Day of the week--</div>
+    </template>
+    
+    <template id="card-template">
+        <div class="card"> 
+            <figure>
+                <img class="default-image" src="" alt="">
+                <div class="curve"><i class="fa-solid fa-circle-chevron-down"></i></div>
+            </figure>
+            <h4>--title--</h4>
+        </div>
+    </template>
+
+    <template id="stats-template">
+        <div class="data">
+            <canvas id=""></canvas>
+        </div>
+    </template>
+
+</body>
+</html> 

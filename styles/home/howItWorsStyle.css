@@ -1,0 +1,92 @@
+/* Styles for How it works section */
+
+.how-works {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.how-works h3 {
+    margin: 30px;
+}
+
+.steps {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    border: .05px solid #000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    min-height: 300px;
+    margin: 30px;
+}
+.card:hover {
+    transform: translateY(-.5%);
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, .2);
+}
+
+.card h6 {
+    opacity: 0.6;
+    margin: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.card h4 {
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
+
+.title {
+    background-color: #ffe5d9;
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.info {
+    padding:30px;
+    width: 100%; 
+    text-align: center;
+}
+  
+.info > * {
+    margin: 15px 0;
+}
+
+/* Override the title color of the cards */
+.second {
+    background-color: #ffd7ba;
+}
+
+.third {
+    background-color: #fec89a;
+}
+
+.how-works img {
+    transform: rotateX(180deg);
+    width: 0%;
+}
+
+
+/* Responsive how it works section */
+@media (max-width: 600px) {
+    .how-works h2 {
+        text-align: center;
+    }             
+  }

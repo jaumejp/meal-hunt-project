@@ -1,0 +1,26 @@
+{
+    "email": "jaumejuanperez@gmail.com",
+    "name": "Jaume",
+    "surname": "juan pérez",
+    "username": "jaumejp",
+    "password": "Jaume123",
+    "password-2": "Jaume123",
+    "gender": "male",
+    "weight": "30",
+    "height": "130",
+    "age": "18",
+    "dailyActivity": "moderate-activity",
+    "kcalProfession": "2080",
+    "dietIntensity": "300",
+    "diet": "Lacto-Vegetarian",
+    "intolerances": [
+        "Egg",
+        "Grain",
+        "Sesame"
+    ],
+    "foods": [
+        "milk",
+        "almonds",
+        "almond milk"
+    ]
+}

@@ -1,0 +1,242 @@
+{
+    "week": {
+        "monday": {
+            "meals": [
+                {
+                    "id": 1697651,
+                    "imageType": "jpg",
+                    "title": "Caesar Dressing",
+                    "readyInMinutes": 5,
+                    "servings": 2,
+                    "sourceUrl": "https://spoonacular.com/caesar-dressing-1697651"
+                },
+                {
+                    "id": 206559,
+                    "imageType": "jpg",
+                    "title": "Lobster Rolls",
+                    "readyInMinutes": 13,
+                    "servings": 4,
+                    "sourceUrl": "http://www.myrecipes.com/recipe/lobster-rolls-50400000133281/"
+                },
+                {
+                    "id": 77290,
+                    "imageType": "jpg",
+                    "title": "Linguine with Peppery Shrimp",
+                    "readyInMinutes": 38,
+                    "servings": 4,
+                    "sourceUrl": "http://www.myrecipes.com/recipe/linguine-with-peppery-shrimp-10000002001922/"
+                }
+            ],
+            "nutrients": {
+                "calories": 1704.91,
+                "protein": 91.14,
+                "fat": 121.04,
+                "carbohydrates": 61.79
+            }
+        },
+        "tuesday": {
+            "meals": [
+                {
+                    "id": 399427,
+                    "imageType": "jpeg",
+                    "title": "Shrimp and Cream Cheese Phyllo Triangles",
+                    "readyInMinutes": 60,
+                    "servings": 48,
+                    "sourceUrl": "http://www.foodnetwork.com/recipes/paula-deen/shrimp-and-cream-cheese-phyllo-triangles-recipe.html"
+                },
+                {
+                    "id": 255473,
+                    "imageType": "jpg",
+                    "title": "Pan Fried Catfish with Buttered Rice & Pickled Pepper Relish",
+                    "readyInMinutes": 30,
+                    "servings": 4,
+                    "sourceUrl": "http://www.sippitysup.com/recipe/pan-fried-catfish-with-buttered-rice-pickled-pepper-relish/"
+                },
+                {
+                    "id": 1083173,
+                    "imageType": "jpg",
+                    "title": "One Pot Pad Thai",
+                    "readyInMinutes": 30,
+                    "servings": 4,
+                    "sourceUrl": "https://realhousemoms.com/one-pot-pad-thai/"
+                }
+            ],
+            "nutrients": {
+                "calories": 1705.43,
+                "protein": 66.83,
+                "fat": 75.4,
+                "carbohydrates": 201.13
+            }
+        },
+        "wednesday": {
+            "meals": [
+                {
+                    "id": 1697619,
+                    "imageType": "jpg",
+                    "title": "How to Make Crab Cakes",
+                    "readyInMinutes": 95,
+                    "servings": 2,
+                    "sourceUrl": "https://spoonacular.com/how-to-make-crab-cakes-1697619"
+                },
+                {
+                    "id": 430643,
+                    "imageType": "jpg",
+                    "title": "Crab-Topped Fish Fillets",
+                    "readyInMinutes": 30,
+                    "servings": 4,
+                    "sourceUrl": "http://www.tasteofhome.com/Recipes/crab-topped-fish-fillets"
+                },
+                {
+                    "id": 421727,
+                    "imageType": "jpg",
+                    "title": "Creamy Curry Shrimp",
+                    "readyInMinutes": 15,
+                    "servings": 2,
+                    "sourceUrl": "http://www.tasteofhome.com/Recipes/creamy-curry-shrimp"
+                }
+            ],
+            "nutrients": {
+                "calories": 1705.06,
+                "protein": 113.01,
+                "fat": 115.74,
+                "carbohydrates": 52.05
+            }
+        },
+        "thursday": {
+            "meals": [
+                {
+                    "id": 1485507,
+                    "imageType": "jpg",
+                    "title": "Best Steak Marinade",
+                    "readyInMinutes": 10,
+                    "servings": 1,
+                    "sourceUrl": "https://www.theroastedroot.net/best-steak-marinade/"
+                },
+                {
+                    "id": 478596,
+                    "imageType": "jpg",
+                    "title": "Seared Scallops with Avocado “Crema” and Sriracha Drizzle",
+                    "readyInMinutes": 20,
+                    "servings": 4,
+                    "sourceUrl": "http://www.seasonalandsavory.com/2013/07/seared-scallops-with-avocado-crema-and-sriracha-drizzle.html"
+                },
+                {
+                    "id": 185339,
+                    "imageType": "jpg",
+                    "title": "Shrimp Pad Thai For Four",
+                    "readyInMinutes": 40,
+                    "servings": 4,
+                    "sourceUrl": "http://www.epicurious.com/recipes/food/views/51206860"
+                }
+            ],
+            "nutrients": {
+                "calories": 1705.25,
+                "protein": 34.88,
+                "fat": 84.4,
+                "carbohydrates": 210.03
+            }
+        },
+        "friday": {
+            "meals": [
+                {
+                    "id": 312485,
+                    "imageType": "jpg",
+                    "title": "Grilled Jumbo Shrimp with Kimchi-Miso Butter",
+                    "readyInMinutes": 25,
+                    "servings": 25,
+                    "sourceUrl": "http://www.myrecipes.com/recipe/grilled-jumbo-shrimp-53420000020900/"
+                },
+                {
+                    "id": 87626,
+                    "imageType": "jpg",
+                    "title": "Sweet-and-Spicy Salmon Tacos",
+                    "readyInMinutes": 18,
+                    "servings": 4,
+                    "sourceUrl": "http://www.myrecipes.com/recipe/sweet-spicy-salmon-tacos-50400000112208/"
+                },
+                {
+                    "id": 632026,
+                    "imageType": "jpg",
+                    "title": "Ahi Tuna with Sweet and Spicy Asian Slaw",
+                    "readyInMinutes": 45,
+                    "servings": 2,
+                    "sourceUrl": "https://spoonacular.com/ahi-tuna-with-sweet-and-spicy-asian-slaw-632026"
+                }
+            ],
+            "nutrients": {
+                "calories": 1705.08,
+                "protein": 57.8,
+                "fat": 113.43,
+                "carbohydrates": 120.78
+            }
+        },
+        "saturday": {
+            "meals": [
+                {
+                    "id": 1697577,
+                    "imageType": "jpg",
+                    "title": "Spanish Sardines Pasta",
+                    "readyInMinutes": 25,
+                    "servings": 2,
+                    "sourceUrl": "https://spoonacular.com/spanish-sardines-pasta-1697577"
+                },
+                {
+                    "id": 1064439,
+                    "imageType": "jpg",
+                    "title": "Horseradish latkes with avocado, gravadlax & poached eggs",
+                    "readyInMinutes": 30,
+                    "servings": 2,
+                    "sourceUrl": "https://www.bbcgoodfood.com/recipes/horseradish-latkes-avocado-gravadlax-poached-eggs"
+                },
+                {
+                    "id": 5835,
+                    "imageType": "jpg",
+                    "title": "Hot Pepper and Garlic Shrimp",
+                    "readyInMinutes": 35,
+                    "servings": 12,
+                    "sourceUrl": "http://www.epicurious.com/recipes/food/views/Hot-Pepper-and-Garlic-Shrimp-231382"
+                }
+            ],
+            "nutrients": {
+                "calories": 1704.45,
+                "protein": 85.32,
+                "fat": 84.37,
+                "carbohydrates": 157.82
+            }
+        },
+        "sunday": {
+            "meals": [
+                {
+                    "id": 1697577,
+                    "imageType": "jpg",
+                    "title": "Spanish Sardines Pasta",
+                    "readyInMinutes": 25,
+                    "servings": 2,
+                    "sourceUrl": "https://spoonacular.com/spanish-sardines-pasta-1697577"
+                },
+                {
+                    "id": 1442,
+                    "imageType": "jpg",
+                    "title": "Roast Cod with Garlic Butter",
+                    "readyInMinutes": 17,
+                    "servings": 4,
+                    "sourceUrl": "http://www.myrecipes.com/recipe/roast-cod-with-garlic-butter-10000001973668/"
+                },
+                {
+                    "id": 658269,
+                    "imageType": "jpg",
+                    "title": "Rice noodle salad with sesame oil dressing",
+                    "readyInMinutes": 45,
+                    "servings": 3,
+                    "sourceUrl": "https://spoonacular.com/rice-noodle-salad-with-sesame-oil-dressing-658269"
+                }
+            ],
+            "nutrients": {
+                "calories": 1706.17,
+                "protein": 93.78,
+                "fat": 76.7,
+                "carbohydrates": 162.28
+            }
+        }
+    }
+}

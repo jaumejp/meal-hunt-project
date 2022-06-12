@@ -1,0 +1,12 @@
+
+#macros-chart {
+    width: 50%;
+    height: 50%;
+    max-width: 50%;
+}
+.data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
