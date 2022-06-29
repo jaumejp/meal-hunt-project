@@ -4,17 +4,19 @@ import { fetchDataAndSaveToLocalStorage } from "./modules/generateData.js";
 import { addNameTitle } from "./modules/personalizeTitleName.js";
 import { colsePopUp, showPopUpWithRecipeClicked } from "./modules/popUpControl.js";
 
-document.addEventListener('DOMContentLoaded', () => {
+
+async function generateDataForCalendar() {
   // Get user data from local storage -> returns string, parse to JSON
   const userData = JSON.parse(localStorage.getItem("userData"))
-  
+
   // Create endPoint for spoonacular.com api:
   const endPoint = mealPrepEndPoint(userData)
 
   // Fetch data from several apis and save processed data to local storage as "mealsOfTheWeek"
   // If we comment these line we'll get the previous fetched data saved on the local storage
-  //fetchDataAndSaveToLocalStorage(endPoint)
-
+  console.log("1")
+  await fetchDataAndSaveToLocalStorage(endPoint);
+  console.log("2")
   // Personalize title: 
   addNameTitle(userData)
 
@@ -25,4 +27,8 @@ document.addEventListener('DOMContentLoaded', () => {
   // Pop Up
   showPopUpWithRecipeClicked(data)
   colsePopUp()
-})
+
+}
+generateDataForCalendar();
+
+
